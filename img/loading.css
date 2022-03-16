@@ -1,0 +1,42 @@
+body{
+	margin:0px;
+	padding:0px;
+	color:grey;
+	}
+	
+.load{
+	font:Arial;
+	color:white;
+	transform:translate(-50%,-50%);
+	
+}
+.load span{
+	
+	height:25px;
+	transition:5s ease;
+	animation:animate 2s infinite;
+	
+}
+@keyframes animate{
+	
+	0%{
+		color:rgba(255,255,255,0.4);
+		transform:translateY(0);
+		margin-left:0px;
+		
+	}
+	50%{
+		color:yellow;
+		transform:translateY(-15px);
+		margin-left:10px;
+		
+	}
+	100%{
+		color:rgba(255,255,255,0.4);
+		transform:translateY(0);
+		
+		
+	}
+	
+	
+}
