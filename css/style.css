@@ -1140,6 +1140,13 @@ h6 {
   background-color: #1bb1dc;
 }
 
+.spcontainer {
+   padding: 25px 40px;
+   background-color: rgba(242, 242, 242, 0.95);
+   box-shadow: 4px 4px 20px grey;
+   border-radius: 16px; 
+}
+
 /* Pricing Section
 --------------------------------*/
 

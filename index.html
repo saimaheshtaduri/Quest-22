@@ -32,7 +32,7 @@
   <style>
     @import url("https://fonts.googleapis.com/css2?family=Anton&family=Montserrat:wght@500&family=Nunito+Sans:wght@300&family=Nunito:wght@300&family=Righteous&display=swap");
     
-   @media only screen and (max-width: 600px) {
+   @media only screen and (max-width: 576px) {
   
      h2,.section-header h3{
        font-size: 24px;
@@ -54,7 +54,6 @@
      }
      .about-img{
        width: 68%;
-       border: 1px solid yellow;
      }
      .qimage{
        display: flex;
@@ -70,7 +69,29 @@
      .hovereffect1,.hovereffect2,.hovereffect3,.hovereffect, .overlay{
        width: 68%;
      }
-     
+     #workshops{
+       display: flex;
+       justify-content: center;
+       align-items: center;
+     }
+     #vidbg2{
+       display: none;
+     }
+     .wscards{
+      align-items: center; 
+      display: flex; 
+      flex-direction: column; 
+      justify-content: center;
+     }
+     .spcontainer{
+       padding: 18px 15px;
+       background-color: rgba(242, 242, 242, 0.95);
+       box-shadow: 1px 1px 5px grey;
+       border-radius: 8px; 
+     }
+     .follow{
+       font-size: 16px;
+     }
 }
 
   </style>
@@ -252,8 +273,8 @@
     </section>
 
     <section id="workshops" class="section-bg">
-      <div style="position: absolute;  " class="bgvideo">
-        <video loop muted autoplay id="vidbg" width="100%" style="overflow: hidden; transform: translateY(-180px); box-shadow: 0 5px 25px white;">
+      <div style="position: absolute;" class="bgvideo">
+        <video loop muted autoplay id="vidbg2" width="100%" height="100%" style="overflow: hidden; box-shadow: 0 5px 25px white; ">
           <source src="./img/particles.mp4" type="video/mp4" />
         </video>
       </div>
@@ -266,8 +287,8 @@
           </p>
         </header>
 
-        <div class="row">
-          <div style="padding-bottom: 24px; display: flex; flex-direction: column; justify-content: space-between;" class="card m-3 wow bounceInUp" data-wow-duration="1.4s">
+        <div class="row wscards">
+          <div style="padding-bottom: 24px; display: flex; flex-direction: column; justify-content: space-between; align-items: center;" class="card m-3 wow bounceInUp" data-wow-duration="1.4s">
             <div class="image mt-3">
               <img src="./img/flutter-logo.png" width="250" />
             </div>
@@ -558,36 +579,30 @@
 
 
     <section style="padding-top: 60px" id="team" class="section-bg">
-      <div style="width: 100%" class="container">
+      <div style="width: 100%;" class="container">
         <div class="section-header">
           <h3>Our Team</h3>
-          <p>
-            Sed ut perspiciatis unde omnis iste natus error sit voluptatem
-            accusantium doloremque
-          </p>
         </div>
 
         <div class="container mt-4">
           <div class="row mb-4">
-            <div class="col-md-3 col-sm-6 mt-5">
+            <div class="col-md-3 col-6 col-sm-6 mt-5">
               <div class="box">
                 <img src="./img/c1.jpg" />
                 <div class="box-content">
                   <h3 class="title">Sai Manas <br />Rao</h3>
-                  <!-- <span class="post">All rounder</span> -->
                 </div>
               </div>
             </div>
-            <div class="col-md-3 col-sm-6 mt-5">
+            <div class="col-md-3 col-6 col-sm-6 mt-5">
               <div class="box">
                 <img src="./img/c2.jpg" />
                 <div class="box-content">
                   <h3 class="title">Rachel <br />Merritt</h3>
-                  <!-- <span class="post">All rounder</span> -->
                 </div>
               </div>
             </div>
-            <div class="col-md-3 col-sm-6 mt-5">
+            <div class="col-md-3 col-6 col-sm-6 mt-5">
               <div class="box">
                 <img src="./img/c4.jpeg" />
                 <div class="box-content">
@@ -595,11 +610,10 @@
                     Sai Akshay <br />
                     Kumar
                   </h3>
-                  <!-- <span class="post">All rounder</span> -->
                 </div>
               </div>
             </div>
-            <div class="col-md-3 col-sm-6 mt-5">
+            <div class="col-md-3 col-6 col-sm-6 mt-5">
               <div class="box">
                 <img src="./img/c3.jpg" />
                 <div class="box-content">
@@ -607,7 +621,6 @@
                     Sri Sai <br />
                     Preetham
                   </h3>
-                  <!-- <span class="post">All rounder</span> -->
                 </div>
               </div>
             </div>
@@ -616,12 +629,11 @@
       </div>
     </section>
 
-    <!-- background: url('./img/particles.svg') fixed ; background-size: cover; -->
 
     <section style="background-color: snow;  padding-top: 100px;" id="clients">
       <div style="position: absolute; width: 100%; height: 120%; background: url('./img/particles.svg') fixed ; background-size: cover; transform: translateY(-320px);"></div>
 
-      <div style="padding: 25px 40px; background-color: rgba(242, 242, 242, 0.95); box-shadow: 4px 4px 20px grey; border-radius: 20px; width: 100%; " class="container">
+      <div style="width: 100%;" class="container spcontainer">
         <header class="section-header">
           <h3>Previous Sponsers</h3>
         </header>
@@ -646,7 +658,7 @@
       <div style="width: 100%;" class="container">
         <div class="row">
           <div class="col-lg-12">
-            <h3>Follow us to know more</h3>
+            <h3 class="follow">Follow us to know more</h3>
 
             <div class="social-links" style="display: flex; justify-content: center">
               <a href="https://www.facebook.com/questJNTUH/" class="facebook"><i class="fa fa-facebook"></i></a>
