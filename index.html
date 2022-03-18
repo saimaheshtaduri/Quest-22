@@ -31,6 +31,11 @@
   <link rel="stylesheet" type="text/css" href="coordinatorshover2.css" />
   <style>
     @import url("https://fonts.googleapis.com/css2?family=Anton&family=Montserrat:wght@500&family=Nunito+Sans:wght@300&family=Nunito:wght@300&family=Righteous&display=swap");
+    
+    @media screen {
+      
+    }
+
   </style>
 </head>
 
@@ -38,8 +43,8 @@
   <!--==========================
   Header
   ============================-->
-  <header id="header">
-    <div class="container">
+  <header style="width: 100vw;" id="header">
+    <div style="width: inherit" class="container">
       <div class="logo float-left">
         <h1 class="text-light">
           <a href="#header" class="scrollto"><img src="questfinal.png" alt="" class="img-fluid" /></a><a href="#intro" class="scrollto"><span style="color: #0a98c0"> Quest'22</span></a>
@@ -62,18 +67,18 @@
     </div>
   </header>
 
-  <div style="width: 100vw; position: absolute; z-index: -1; position: fixed;">
+  <div style="width: 100vw; position: absolute; z-index: -1; position: fixed; height: 100vh; background-color: black; ">
     <video loop muted autoplay id="vidbg" style="overflow-x: hidden" width="100%">
       <source src="./img/bgvideo.mp4" type="video/mp4" />
     </video>
   </div>
 
   <section id="intro" class="clearfix">
-    <div style="justify-content: flex-start; align-items: center; " class="container d-flex h-100">
+    <div style="justify-content: flex-start; align-items: center;width: 100%; " class="container d-flex h-100">
       <div class="row justify-content-center align-self-center">
         <div id="textscroll" class="col-md-6 intro-info order-md-first order-last">
           <h2 id="header-text" style="color: white">
-            Pursuit <br /> Of <span>Computation</span>
+            Pursuits <br /> Of <span>Computation</span>
           </h2>
 
           <div class="sp-container"></div>
@@ -89,7 +94,7 @@
 
   <main id="main">
     <section style="margin-top: 120px; padding-bottom: 50px; background-color: rgba(242, 242, 242, 0.9); border-top-left-radius: 28px;  border-top-right-radius: 28px; padding-bottom: 50px; box-shadow: 0 -2px 15px snow" id="about">
-      <div class="container">
+      <div style="width: 100%;" class="container">
         <div class="row wow bounceInUp" data-wow-duration="1.4s">
           <div class="col-lg-5 col-md-6">
             <div class="about-img">
@@ -119,7 +124,7 @@
 
     <section style="padding-top: 60px; padding-bottom: 50px;position: relative; background-color: snow; z-index: 100" id="events" class="section-bg">
 
-      <div class="container">
+      <div style="width: 100%;" class="container">
         <header class="section-header">
           <h3 class="section-title">Previous Events</h3>
           <p>
@@ -219,7 +224,7 @@
           <source src="./img/particles.mp4" type="video/mp4" />
         </video>
       </div>
-      <div style="padding: 60px 0" class="container">
+      <div style="padding: 60px 0; width: 100%" class="container">
         <header class="section-header">
           <h3>Our Workshops</h3>
           <p>
@@ -520,7 +525,7 @@
 
 
     <section style="padding-top: 60px" id="team" class="section-bg">
-      <div class="container">
+      <div style="width: 100%" class="container">
         <div class="section-header">
           <h3>Our Team</h3>
           <p>
@@ -583,7 +588,7 @@
     <section style="background-color: snow;  padding-top: 100px;" id="clients">
       <div style="position: absolute; width: 100%; height: 120%; background: url('./img/particles.svg') fixed ; background-size: cover; transform: translateY(-320px);"></div>
 
-      <div style="padding: 25px 40px; background-color: rgba(242, 242, 242, 0.95); box-shadow: 4px 4px 20px grey; border-radius: 20px; " class="container">
+      <div style="padding: 25px 40px; background-color: rgba(242, 242, 242, 0.95); box-shadow: 4px 4px 20px grey; border-radius: 20px; width: 100%; " class="container">
         <header class="section-header">
           <h3>Previous Sponsers</h3>
         </header>
@@ -605,7 +610,7 @@
 
   <footer id="footer" class="section-bg">
     <div class="footer-top">
-      <div class="container">
+      <div style="width: 100%;" class="container">
         <div class="row">
           <div class="col-lg-12">
             <h3>Follow us to know more</h3>
