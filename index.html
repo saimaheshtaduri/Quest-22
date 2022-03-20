@@ -1,241 +1,235 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
-    <meta charset="utf-8" />
-    <title>Quest'22</title>
-    <link rel="icon" type="image/x-icon" href="questfinal.png" />
-    <meta content="width=device-width, initial-scale=1.0" name="viewport" />
-    <!-- <meta content="" name="keywords"> -->
-    <!-- <meta content="" name="description"> -->
 
-    <!-- Favicons -->
+<head>
+  <meta charset="utf-8" />
+  <title>Quest'22</title>
+  <link rel="icon" type="image/x-icon" href="questfinal.png" />
+  <meta content="width=device-width, initial-scale=1.0" name="viewport" />
+  <!-- <meta content="" name="keywords"> -->
+  <!-- <meta content="" name="description"> -->
 
-    <!-- Google Fonts -->
-    <link
-      href="https://fonts.googleapis.com/css?family=Open+Sans:300,300i,400,400i,500,600,700,700i|Montserrat:300,400,500,600,700"
-      rel="stylesheet"
-    />
+  <!-- Favicons -->
 
-    <!-- Bootstrap CSS File -->
-    <link href="lib/bootstrap/css/bootstrap.min.css" rel="stylesheet" />
+  <!-- Google Fonts -->
+  <link href="https://fonts.googleapis.com/css?family=Open+Sans:300,300i,400,400i,500,600,700,700i|Montserrat:300,400,500,600,700" rel="stylesheet" />
 
-    <!-- Libraries CSS Files -->
-    <link href="lib/font-awesome/css/font-awesome.min.css" rel="stylesheet" />
-    <link href="lib/animate/animate.min.css" rel="stylesheet" />
-    <!-- <link href="lib/ionicons/css/ionicons.min.css" rel="stylesheet"> -->
-    <link href="lib/owlcarousel/assets/owl.carousel.min.css" rel="stylesheet" />
-    <!-- <link href="lib/lightbox/css/lightbox.min.css" rel="stylesheet"> -->
+  <!-- Bootstrap CSS File -->
+  <link href="lib/bootstrap/css/bootstrap.min.css" rel="stylesheet" />
 
-    <!-- Main Stylesheet File -->
-    <link href="css/style.css" rel="stylesheet" />
-    <link rel="stylesheet" type="text/css" href="workshops1.css" />
-    <link rel="stylesheet" type="text/css" href="coordinators.css" />
-    <link rel="stylesheet" type="text/css" href="coordinatorshover2.css" />
-    <style>
-      @import url('https://fonts.googleapis.com/css2?family=Secular+One&display=swap');
-      @import url("https://fonts.googleapis.com/css2?family=Anton&family=Montserrat:wght@500&family=Nunito+Sans:wght@300&family=Nunito:wght@300&family=Righteous&display=swap");
-     
-      .overlay h2{
-        font-size: 20px;
-        font-weight: 700;
-        color: snow;
-        font-family: 'Montserrat';
-        text-shadow: 6px 6px 25px black;
+  <!-- Libraries CSS Files -->
+  <link href="lib/font-awesome/css/font-awesome.min.css" rel="stylesheet" />
+  <link href="lib/animate/animate.min.css" rel="stylesheet" />
+  <!-- <link href="lib/ionicons/css/ionicons.min.css" rel="stylesheet"> -->
+  <link href="lib/owlcarousel/assets/owl.carousel.min.css" rel="stylesheet" />
+  <!-- <link href="lib/lightbox/css/lightbox.min.css" rel="stylesheet"> -->
+
+  <!-- Main Stylesheet File -->
+  <link href="css/style.css" rel="stylesheet" />
+  <link rel="stylesheet" type="text/css" href="workshops1.css" />
+  <link rel="stylesheet" type="text/css" href="coordinators.css" />
+  <link rel="stylesheet" type="text/css" href="coordinatorshover2.css" />
+  <style>
+    @import url('https://fonts.googleapis.com/css2?family=Secular+One&display=swap');
+    @import url("https://fonts.googleapis.com/css2?family=Anton&family=Montserrat:wght@500&family=Nunito+Sans:wght@300&family=Nunito:wght@300&family=Righteous&display=swap");
+
+    .overlay h2 {
+      font-size: 20px;
+      font-weight: 700;
+      color: snow;
+      font-family: 'Montserrat';
+      text-shadow: 6px 6px 25px black;
+    }
+
+
+    @media only screen and (max-width: 700px) {
+
+      h2,
+      .section-header h3 {
+        font-size: 24px;
       }
 
-
-      @media only screen and (max-width: 700px) {
-        h2,
-        .section-header h3 {
-          font-size: 24px;
-        }
-        #vidbg {
-          padding-top: 100px;
-        }
-        #header-text {
-          text-align: start;
-        }
-        #intro .intro-info h2 {
-          padding-top: 100px;
-          font-size: 28px;
-        }
-        .getstarted {
-          display: flex;
-          height: 36px;
-          align-items: center;
-        }
-        .about-img {
-          width: 68%;
-        }
-        .qimage {
-          display: flex;
-          justify-content: center;
-        }
-        .eventss {
-          margin-bottom: 0;
-          align-items: center;
-          display: flex;
-          flex-direction: column;
-          justify-content: center;
-        }
-        .hovereffect1,
-        .hovereffect2,
-        .hovereffect3,
-        .hovereffect,
-        .overlay {
-          width: 68%;
-        }
-        #workshops {
-          display: flex;
-          justify-content: center;
-          align-items: center;
-        }
-        .bgvideo {
-          width: 100vw;
-          height:280% ;
-        }
-        .wscards {
-          align-items: center;
-          display: flex;
-          flex-direction: column;
-          justify-content: center;
-        }
-        .spcontainer {
-          padding: 18px 15px;
-          background-color: rgba(242, 242, 242, 0.95);
-          box-shadow: 1px 1px 5px grey;
-          border-radius: 8px;
-        }
-        .follow {
-          font-size: 16px;
-        }
-        .flutterimg{
-          display: none;
-        }
-        .sp-image{
-          display: flex;
-          float:unset;
-          align-self: center;
-          justify-self: center;
-          margin-right: unset;
-        }
-        .speaker-info{
-          text-align: center;
-          margin-left: unset;
-          margin-top: 20px;
-        }
-        .speaker {
-          display: flex;
-          flex-direction: column;
-          justify-content: center;
-        }
-        .modal-content {
-          width: 92vw;
-          border: 1px solid rgba(217, 217, 217, 0.94);
-          margin-top: 50px;
-          padding: 10px 15px 0 15px;
-          box-shadow: 2px 4px 5px rgba(242, 242, 242, 0.8);
-        }
-        .sp-div{
-          margin: 0 -28px -12px -28px;
-        }
+      #vidbg {
+        padding-top: 100px;
       }
-    </style>
-  </head>
 
-  <body>
-    <!--==========================
+      #header-text {
+        text-align: start;
+      }
+
+      #intro .intro-info h2 {
+        padding-top: 100px;
+        font-size: 28px;
+      }
+
+      .getstarted {
+        display: flex;
+        height: 36px;
+        align-items: center;
+      }
+
+      .about-img {
+        width: 68%;
+      }
+
+      .qimage {
+        display: flex;
+        justify-content: center;
+      }
+
+      .eventss {
+        margin-bottom: 0;
+        align-items: center;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+      }
+
+      .hovereffect1,
+      .hovereffect2,
+      .hovereffect3,
+      .hovereffect,
+      .overlay {
+        width: 68%;
+      }
+
+      #workshops {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+      }
+
+      .bgvideo {
+        width: 100vw;
+        height: 280%;
+      }
+
+      .wscards {
+        align-items: center;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+      }
+
+      .spcontainer {
+        padding: 18px 15px;
+        background-color: rgba(242, 242, 242, 0.95);
+        box-shadow: 1px 1px 5px grey;
+        border-radius: 8px;
+      }
+
+      .follow {
+        font-size: 16px;
+      }
+
+      .flutterimg {
+        display: none;
+      }
+
+      .sp-image {
+        display: flex;
+        float: unset;
+        align-self: center;
+        justify-self: center;
+        margin-right: unset;
+      }
+
+      .speaker-info {
+        text-align: center;
+        margin-left: unset;
+        margin-top: 20px;
+      }
+
+      .speaker {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+      }
+
+      .modal-content {
+        width: 92vw;
+        border: 1px solid rgba(217, 217, 217, 0.94);
+        margin-top: 50px;
+        padding: 10px 15px 0 15px;
+        box-shadow: 2px 4px 5px rgba(242, 242, 242, 0.8);
+      }
+
+      .sp-div {
+        margin: 0 -28px -12px -28px;
+      }
+    }
+  </style>
+</head>
+
+<body>
+  <!--==========================
   Header
   ============================-->
-    <header style="width: 100vw" id="header">
-      <div style="width: inherit" class="container">
-        <div class="logo float-left">
-          <h1 class="text-light">
-            <a href="#header" class="scrollto"
-              ><img src="questfinal.png" alt="" class="img-fluid" /></a
-            ><a href="#intro" class="scrollto"
-              ><span style="color: #0a98c0"> Quest'22</span></a
-            >
-          </h1>
-        </div>
+  <header style="width: 100vw" id="header">
+    <div style="width: inherit" class="container">
+      <div class="logo float-left">
+        <h1 class="text-light">
+          <a href="#header" class="scrollto"><img src="questfinal.png" alt="" class="img-fluid" /></a><a href="#intro" class="scrollto"><span style="color: #0a98c0"> Quest'22</span></a>
+        </h1>
+      </div>
 
-        <nav class="main-nav float-right d-none d-lg-block">
-          <ul>
-            <li class="active"><a href="#intro">Home</a></li>
-            <li><a href="#about">About Us</a></li>
-            <li><a href="#workshops">Workshops</a></li>
-            <li><a href="#events">Events</a></li>
-            <li><a href="#team">Coordinators</a></li>
-            <li><a href="#footer">Contact Us</a></li>
-          </ul>
-        </nav>
-        <div style="width: 100%; height: 4px" class="progress-container">
-          <div
-            style="
+      <nav class="main-nav float-right d-none d-lg-block">
+        <ul>
+          <li class="active"><a href="#intro">Home</a></li>
+          <li><a href="#about">About Us</a></li>
+          <li><a href="#workshops">Workshops</a></li>
+          <li><a href="#events">Events</a></li>
+          <li><a href="#team">Coordinators</a></li>
+          <li><a href="#footer">Contact Us</a></li>
+        </ul>
+      </nav>
+      <div style="width: 100%; height: 4px" class="progress-container">
+        <div style="
               height: 4px;
               background-color: rgba(27, 177, 220, 0.9);
               width: 0;
               border-radius: 10px;
               box-shadow: 0 2px 5px grey;
-            "
-            class="progress-bar"
-            id="myBar"
-          ></div>
-        </div>
+            " class="progress-bar" id="myBar"></div>
       </div>
-    </header>
+    </div>
+  </header>
 
-    <div
-      style="
+  <div style="
         width: 100vw;
         position: absolute;
         z-index: -1;
         position: fixed;
         height: 100vh;
         background-color: black;
-      "
-    >
-      <video
-        loop
-        muted
-        autoplay
-        id="vidbg"
-        style="overflow-x: hidden"
-        width="100%"
-      >
-        <source src="./img/bgvideo.mp4" type="video/mp4" />
-      </video>
-    </div>
+      ">
+    <video loop muted autoplay id="vidbg" style="overflow-x: hidden" width="100%">
+      <source src="./img/bgvideo.mp4" type="video/mp4" />
+    </video>
+  </div>
 
-    <section id="intro" class="clearfix">
-      <div
-        style="justify-content: flex-start; align-items: center; width: 100%"
-        class="container d-flex h-100"
-      >
-        <div class="row justify-content-center align-self-center">
-          <div
-            id="textscroll"
-            class="col-md-6 intro-info order-md-first order-last"
-          >
-            <h2 id="header-text" style="color: white">
-              Pursuits <br />
-              Of <span>Computation</span>
-            </h2>
+  <section id="intro" class="clearfix">
+    <div style="justify-content: flex-start; align-items: center; width: 100%" class="container d-flex h-100">
+      <div class="row justify-content-center align-self-center">
+        <div id="textscroll" class="col-md-6 intro-info order-md-first order-last">
+          <h2 id="header-text" style="color: white">
+            Pursuits <br />
+            Of <span>Computation</span>
+          </h2>
 
-            <div class="sp-container"></div>
-            <div class="getstarted">
-              <a href="#about" class="btn-get-started scrollto">Get Started</a>
-            </div>
+          <div class="sp-container"></div>
+          <div class="getstarted">
+            <a href="#about" class="btn-get-started scrollto">Get Started</a>
           </div>
-
-          <div class="col-md-6 intro-img order-md-last order-first"></div>
         </div>
-      </div>
-    </section>
 
-    <main id="main">
-      <section
-        style="
+        <div class="col-md-6 intro-img order-md-last order-first"></div>
+      </div>
+    </div>
+  </section>
+
+  <main id="main">
+    <section style="
           margin-top: 120px;
           padding-bottom: 50px;
           background-color: rgba(242, 242, 242, 0.9);
@@ -243,357 +237,240 @@
           border-top-right-radius: 12px;
           padding-bottom: 50px;
           box-shadow: 0 -2px 8px snow;
-        "
-        id="about"
-      >
-        <div style="width: 100%" class="container">
-          <div class="row wow bounceInUp" data-wow-duration="1.4s">
-            <div class="col-lg-5 col-md-6 qimage">
-              <div class="about-img">
-                <img style="padding: 20px" src="./img/Q.png" alt="" />
-              </div>
+        " id="about">
+      <div style="width: 100%" class="container">
+        <div class="row wow bounceInUp" data-wow-duration="1.4s">
+          <div class="col-lg-5 col-md-6 qimage">
+            <div class="about-img">
+              <img style="padding: 20px" src="./img/Q.png" alt="" />
             </div>
+          </div>
 
-            <div
-              class="col-lg-7 col-md-6 wow bounceInUp"
-              data-wow-duration="1.4s"
-            >
-              <div class="about-content">
-                <h2>About Us</h2>
-                <h3>Quest'22</h3>
-                <p>
-                  JNTUH UCEH is one of the India's top rated institutions. It is
-                  known for emphasizing on theoretical principles and practical
-                  experience, thus making the students "INDUSTRY-READY"
-                </p>
-                <p>
-                  Quest is a national level technical symposium organized by
-                  department of CSE JNTUH UCEH. It provides the platform for
-                  building tech wizards across India to showcase the talents.
-                </p>
-              </div>
+          <div class="col-lg-7 col-md-6 wow bounceInUp" data-wow-duration="1.4s">
+            <div class="about-content">
+              <h2>About Us</h2>
+              <h3>Quest'22</h3>
+              <p>
+                JNTUH UCEH is one of the India's top rated institutions. It is
+                known for emphasizing on theoretical principles and practical
+                experience, thus making the students "INDUSTRY-READY"
+              </p>
+              <p>
+                Quest is a national level technical symposium organized by
+                department of CSE JNTUH UCEH. It provides the platform for
+                building tech wizards across India to showcase the talents.
+              </p>
             </div>
           </div>
         </div>
-      </section>
+      </div>
+    </section>
 
-      <section
-        style="
+    <section style="
           padding-top: 50px;
           padding-bottom: 60px;
           position: relative;
           background-color: snow;
           z-index: 100;
-        "
-        id="events"
-        class="section-bg"
-      >
-        <div style="width: 100%" class="container">
-          <header style="transform: translateY(20px)" class="section-header">
-            <h3 class="section-title">Previous Events</h3>
-          </header>
+        " id="events" class="section-bg">
+      <div style="width: 100%" class="container">
+        <header style="transform: translateY(20px)" class="section-header">
+          <h3 class="section-title">Previous Events</h3>
+        </header>
 
-          <div class="row mt-4 wow bounceInUp" data-wow-duration="1.4s">
-            <div class="col-lg-3 col-md-3 col-sm-6 mb-4 mt-5 eventss">
-              <div class="hovereffect">
-                <img
-                  style="opacity: 0.88; object-fit: cover;"
-                  class="img-responsive"
-                  src="./img/expo.jpg"
-                  alt=""
-                  height="250px"
-                  width="250px"
-                />
+        <div class="row mt-4 wow bounceInUp" data-wow-duration="1.4s">
+          <div class="col-lg-3 col-md-3 col-sm-6 mb-4 mt-5 eventss">
+            <div class="hovereffect">
+              <img style="opacity: 0.88; object-fit: cover;" class="img-responsive" src="./img/expo.jpg" alt="" height="250px" width="250px" />
 
-                <div class="overlay">
-                  <h2>Project Expo</h2>
-                  <p></p>
-                </div>
+              <div class="overlay">
+                <h2>Project Expo</h2>
+                <p></p>
               </div>
             </div>
-            <div class="col-lg-3 col-md-3 col-sm-6 mb-4 mt-5 eventss">
-              <div class="hovereffect1">
-                <img
-                  style="opacity: 0.88; object-fit: cover;"
-                  class="img-responsive"
-                  src="./img/hacktivision.jpg"
-                  alt=""
-                  height="250px"
-                  width="250px"
-                />
+          </div>
+          <div class="col-lg-3 col-md-3 col-sm-6 mb-4 mt-5 eventss">
+            <div class="hovereffect1">
+              <img style="opacity: 0.88; object-fit: cover;" class="img-responsive" src="./img/hacktivision.jpg" alt="" height="250px" width="250px" />
 
-                <div class="overlay">
-                  <h2>Hactivision</h2>
-                  <p></p>
-                </div>
+              <div class="overlay">
+                <h2>Hactivision</h2>
+                <p></p>
               </div>
             </div>
-            <div class="col-lg-3 col-md-3 col-sm-6 mb-4 mt-5 eventss">
-              <div class="hovereffect2">
-                <img
-                  style="opacity: 0.88; object-fit: cover;"
-                  class="img-responsive"
-                  src="./img/flashmob.png"
-                  alt=""
-                  height="250px"
-                  width="250px"
-                />
+          </div>
+          <div class="col-lg-3 col-md-3 col-sm-6 mb-4 mt-5 eventss">
+            <div class="hovereffect2">
+              <img style="opacity: 0.88; object-fit: cover;" class="img-responsive" src="./img/flashmob.png" alt="" height="250px" width="250px" />
 
-                <div class="overlay">
-                  <h2>Flashmob</h2>
-                  <p></p>
-                </div>
+              <div class="overlay">
+                <h2>Flashmob</h2>
+                <p></p>
               </div>
             </div>
-            <div class="col-lg-3 col-md-3 col-sm-6 mb-4 mt-5 eventss">
-              <div class="hovereffect3">
-                <img
-                  style="opacity: 0.88; object-fit: cover;"
-                  class="img-responsive"
-                  src="./img/cryptic.jpg"
-                  alt=""
-                  height="250px"
-                  width="250px"
-                />
+          </div>
+          <div class="col-lg-3 col-md-3 col-sm-6 mb-4 mt-5 eventss">
+            <div class="hovereffect3">
+              <img style="opacity: 0.88; object-fit: cover;" class="img-responsive" src="./img/cryptic.jpg" alt="" height="250px" width="250px" />
 
-                <div class="overlay">
-                  <h2>Cryptic_enigma</h2>
-                  <p></p>
-                </div>
+              <div class="overlay">
+                <h2>Cryptic_enigma</h2>
+                <p></p>
               </div>
             </div>
-            <div class="col-lg-3 col-md-3 col-sm-6 mb-4 mt-5 eventss">
-              <div class="hovereffect3">
-                <img
-                  style="opacity: 0.88; object-fit: cover;"
-                  class="img-responsive"
-                  src="./img/codeking.jpg"
-                  alt=""
-                  height="250px"
-                  width="250px"
-                />
+          </div>
+          <div class="col-lg-3 col-md-3 col-sm-6 mb-4 mt-5 eventss">
+            <div class="hovereffect3">
+              <img style="opacity: 0.88; object-fit: cover;" class="img-responsive" src="./img/codeking.jpg" alt="" height="250px" width="250px" />
 
-                <div class="overlay">
-                  <h2>Codeking</h2>
-                  <p></p>
-                </div>
+              <div class="overlay">
+                <h2>Codeking</h2>
+                <p></p>
               </div>
             </div>
-            <div class="col-lg-3 col-md-3 col-sm-6 mb-4 mt-5 eventss">
-              <div class="hovereffect3">
-                <img
-                  style="opacity: 0.88; object-fit: cover;"
-                  class="img-responsive"
-                  src="./img/3krun.jpg"
-                  alt=""
-                  height="250px"
-                  width="250px"
-                />
+          </div>
+          <div class="col-lg-3 col-md-3 col-sm-6 mb-4 mt-5 eventss">
+            <div class="hovereffect3">
+              <img style="opacity: 0.88; object-fit: cover;" class="img-responsive" src="./img/3krun.jpg" alt="" height="250px" width="250px" />
 
-                <div class="overlay">
-                  <h2>3K run</h2>
-                  <p></p>
-                </div>
+              <div class="overlay">
+                <h2>3K run</h2>
+                <p></p>
               </div>
             </div>
-            <div class="col-lg-3 col-md-3 col-sm-6 mb-4 mt-5 eventss">
-              <div class="hovereffect3">
-                <img
-                  style="opacity: 0.88; object-fit: cover;"
-                  class="img-responsive"
-                  src="./img/snakes.jpg"
-                  alt=""
-                  height="250px"
-                  width="250px"
-                />
+          </div>
+          <div class="col-lg-3 col-md-3 col-sm-6 mb-4 mt-5 eventss">
+            <div class="hovereffect3">
+              <img style="opacity: 0.88; object-fit: cover;" class="img-responsive" src="./img/snakes.jpg" alt="" height="250px" width="250px" />
 
-                <div class="overlay">
-                  <h2>Snake-n-Ladders</h2>
-                  <p></p>
-                </div>
+              <div class="overlay">
+                <h2>Snake-n-Ladders</h2>
+                <p></p>
               </div>
             </div>
-            <div  class="col-lg-3 col-md-3 col-sm-6 mb-4 mt-5 eventss">
-              <div class="hovereffect3">
-                <img
-                  style="opacity: 0.88; object-fit: cover;"
-                  class="img-responsive"
-                  src="./img/interview.jpg"
-                  alt=""
-                  height="250px"
-                  width="250px"
-                />
+          </div>
+          <div class="col-lg-3 col-md-3 col-sm-6 mb-4 mt-5 eventss">
+            <div class="hovereffect3">
+              <img style="opacity: 0.88; object-fit: cover;" class="img-responsive" src="./img/interview.jpg" alt="" height="250px" width="250px" />
 
-                <div style="background-color: transparent;" class="overlay">
-                  <h2>Mock interview</h2>
-                  <p></p>
-                </div>
+              <div style="background-color: transparent;" class="overlay">
+                <h2>Mock interview</h2>
+                <p></p>
               </div>
             </div>
           </div>
         </div>
-      </section>
+      </div>
+    </section>
 
-      <section id="workshops" class="section-bg">
-        <div style="position: absolute;" class="bgvideo">
-          <video
-            loop
-            muted
-            autoplay
-            id="vidbg2"
-            width="100%"
-            height="100%"
-            style="overflow: hidden; box-shadow: 0 5px 25px white; object-fit: cover;"
-          >
-            <source src="./img/particles.mp4" type="video/mp4" />
-          </video>
-        </div>
-        <div style="padding: 60px 0; width: 100%" class="container">
-          <header class="section-header">
-            <h3>Our Workshops</h3>
-            <p style="width: 70vw;">
-              We've got the following workshops, taught by industry and domain
-              experts.
-            </p>
-          </header>
+    <section id="workshops" class="section-bg">
+      <div style="position: absolute;" class="bgvideo">
+        <video loop muted autoplay id="vidbg2" width="100%" height="100%" style="overflow: hidden; box-shadow: 0 5px 25px white; object-fit: cover;">
+          <source src="./img/particles.mp4" type="video/mp4" />
+        </video>
+      </div>
+      <div style="padding: 60px 0; width: 100%" class="container">
+        <header class="section-header">
+          <h3>Our Workshops</h3>
+          <p style="width: 70vw;">
+            We've got the following workshops, taught by industry and domain
+            experts.
+          </p>
+        </header>
 
-          <div class="row wscards">
-           
-            <div
-              style="
+        <div class="row wscards">
+
+          <div style="
                 padding-bottom: 24px;
                 display: flex;
                 flex-direction: column;
                 justify-content: space-between;
                 align-items: center;
-              "
-              class="card m-3 wow bounceInUp"
-              data-wow-duration="1.4s"
-            >
-              <div class="image mt-3">
-                <img src="./img/flutter-logo.png" width="250" />
-              </div>
-              <div class="contentBx">
-                <h2>Flutter verse</h2>
-                <p>A 2-day workshop on Flutter.</p>
-                <div style="align-self: flex-end">
-                  <span class="mr-4"
-                    ><a
-                      data-toggle="modal"
-                      data-target="#exampleModalLong"
-                      href="#"
-                      >Read More</a
-                    ></span
-                  >
-                  <span><a href="https://forms.gle/4Q8t5TKQbA7u1Hzi6">Register</a></span>
-                </div>
+              " class="card m-3 wow bounceInUp" data-wow-duration="1.4s">
+            <div class="image mt-3">
+              <img src="./img/flutter-logo.png" width="250" />
+            </div>
+            <div class="contentBx">
+              <h2>Flutter verse</h2>
+              <p>A 2-day workshop on Flutter.</p>
+              <div style="align-self: flex-end">
+                <span class="mr-4"><a data-toggle="modal" data-target="#exampleModalLong" href="#">Read More</a></span>
+                <span><a href="https://forms.gle/4Q8t5TKQbA7u1Hzi6">Register</a></span>
               </div>
             </div>
+          </div>
 
-            <!-- ================================= w1 model ===================================== -->
+          <!-- ================================= w1 model ===================================== -->
 
-            <div
-              class="modal fade"
-              id="exampleModalLong"
-              tabindex="-1"
-              role="dialog"
-              aria-labelledby="exampleModalLongTitle"
-              aria-hidden="true"
-            >
-              <div
-                style="
+          <div class="modal fade" id="exampleModalLong" tabindex="-1" role="dialog" aria-labelledby="exampleModalLongTitle" aria-hidden="true">
+            <div style="
                   display: flex;
                   align-items: center;
                   justify-content: center;
-                "
-                class="modal-dialog modal-dialog-centered"
-                role="document card"
-              >
-                <div
-                  class="modal-content"
-                >
-                  <div style="margin-bottom: 15px" class="modal-header">
-                    <h5
-                      style="
+                " class="modal-dialog modal-dialog-centered" role="document card">
+              <div class="modal-content">
+                <div style="margin-bottom: 15px" class="modal-header">
+                  <h5 style="
                         margin-left: -15px;
                         font-weight: bold;
                         font-size: x-large;
-                      "
-                      class="modal-title"
-                      id="exampleModalLongTitle"
-                    >
-                      Flutter-verse
-                    </h5>
-                    <button
-                      type="button"
-                      class="close"
-                      data-dismiss="modal"
-                      aria-label="Close"
-                    >
-                      <span aria-hidden="true">&times;</span>
-                    </button>
-                  </div>
+                      " class="modal-title" id="exampleModalLongTitle">
+                    Flutter-verse
+                  </h5>
+                  <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                    <span aria-hidden="true">&times;</span>
+                  </button>
+                </div>
 
-                  <img src="./img/flutterw1.jpg" />
+                <img src="./img/flutterw1.jpg" />
 
-                  <div class="modal-body">
-                    <div
-                      style="
+                <div class="modal-body">
+                  <div style="
                         display: flex;
                         justify-content: space-between;
                         align-items: flex-end;
-                      "
-                    >
-                      <table class="table table-borderless">
-                        <tbody>
-                          <tr>
-                            <th scope="row">About</th>
-                            <td>
-                              Flutter is a cross-platform framework that uses just one code to create apps for different devices .It is an open source framework by Google for building beautiful, natively compiled, multi-platform applications from a single codebase.                            </td>
-                          </tr>
-                          <tr>
-                            <th scope="row">Timings</th>
-                            <td><b>26 - 27th March, 2022.<br/>
+                      ">
+                    <table class="table table-borderless">
+                      <tbody>
+                        <tr>
+                          <th scope="row">About</th>
+                          <td>
+                            Flutter is a cross-platform framework that uses just one code to create apps for different devices .It is an open source framework by Google for building beautiful, natively compiled, multi-platform applications from a
+                            single codebase. </td>
+                        </tr>
+                        <tr>
+                          <th scope="row">Timings</th>
+                          <td><b>26 - 27th March, 2022.<br />
                               10AM - 5PM, IST.</b></td>
-                          </tr>
-                          <tr>
-                            <th scope="row">Venue</th>
-                            <td>
-                              Seminar Hall, CSE Department. JNTUH. 
-                            </td>
-                          </tr>
-                          <tr>
-                            <th scope="row">Fee</th>
-                            <td><i>Rs. 1300/-</i> per participant. ( <b>UPI</b>  available) </td>
-                          </tr>
-                          <tr>
-                            <th scope="row">Perks</th>
-                            <td>Participation Certificates will be provided.</td>
-                          </tr>
-                        </tbody>
-                      </table>
-                      <img
-                        class="flutterimg"
-                        style="margin: 34px"
-                        src="./img/flutt.svg"
-                        height="200px"
-                      />
-                    </div>
-                    <div
-                      class="sp-div"
-                    >
-                      <p
-                        style="
+                        </tr>
+                        <tr>
+                          <th scope="row">Venue</th>
+                          <td>
+                            Seminar Hall, CSE Department. JNTUH.
+                          </td>
+                        </tr>
+                        <tr>
+                          <th scope="row">Fee</th>
+                          <td><i>Rs. 1300/-</i> per participant. ( <b>UPI</b> available) </td>
+                        </tr>
+                        <tr>
+                          <th scope="row">Perks</th>
+                          <td>Participation Certificates will be provided.</td>
+                        </tr>
+                      </tbody>
+                    </table>
+                    <img class="flutterimg" style="margin: 34px" src="./img/flutt.svg" height="200px" />
+                  </div>
+                  <div class="sp-div">
+                    <p style="
                           margin: 0 24px 15px 24px;
                           font-size: larger;
                           font-family: 'Anton';
                           letter-spacing: 1px;
-                        "
-                      >
-                        About the speaker :
-                      </p>
-                      <div
-                        style="
+                        ">
+                      About the speaker :
+                    </p>
+                    <div style="
                           align-items: center;
                           padding: 20px;
                           background-color: snow;
@@ -601,126 +478,81 @@
                           padding-bottom: 36px;
                           border-radius: 10px;
                           min-height: 250px;
-                        "
-                        class="speaker"
-                      >
-                        <img
-                          class="sp-image"
-                          height="200px"
-                          src="./img/speaker.avif"
-                        />
-                        <div class="speaker-info">
-                          <p style="text-align: left;"><span style="font-family: 'Secular One'; font-size: 60px; ">"</span></p>
-                          <p style="font-family: 'Nunito'; font-style: italic; letter-spacing: 1px; transform: translateY(-32px); ">
-                                   I am a Senior Consultant - Flutter at Virtusa Corporation and currently living in Hyderabad, India.
-                             I'm into Mobile App development from past 6 years and have experienced not only with Android, 
-                             I used to work with Actions on Google, Google Cloud platform tools, Flutter with Dart SDK, Firebase.
-                          </p>
-                          <p style="font-family: 'Secular One'; font-size: 60px; text-align: right;">"</p>
-                          <div style="transform: translateY(-40px);">
-                            <p style="text-align: right; font-family: 'Montserrat'; font-weight: 600;"> - HEMA SAI CHARAN KOTHAMASU  </p>
-                            <p style="text-align: right;font-family: 'Nunito';"><i>Senior Consultant - Flutter in Hyderabad, Telangana, India.</i> </p>
-                          </div>
-                          
+                        " class="speaker">
+                      <img class="sp-image" height="200px" src="./img/speaker.avif" />
+                      <div class="speaker-info">
+                        <p style="text-align: left;"><span style="font-family: 'Secular One'; font-size: 60px; ">"</span></p>
+                        <p style="font-family: 'Nunito'; font-style: italic; letter-spacing: 1px; transform: translateY(-32px); padding-left:300px;">
+                          I am a Senior Consultant - Flutter at Virtusa Corporation and currently living in Hyderabad, India.
+                          I'm into Mobile App development from past 6 years and have experienced not only with Android,
+                          I used to work with Actions on Google, Google Cloud platform tools, Flutter with Dart SDK, Firebase.
+                        </p>
+                        <p style="font-family: 'Secular One'; font-size: 60px; text-align: right;">"</p>
+                        <div style="transform: translateY(-40px);">
+                          <p style="text-align: right; font-family: 'Montserrat'; font-weight: 600;"> - HEMA SAI CHARAN KOTHAMASU </p>
+                          <p style="text-align: right;font-family: 'Nunito';"><i>Senior Consultant - Flutter in Hyderabad, Telangana, India.</i> </p>
                         </div>
-                      </div>
 
-                      <div
-                        style="
+                      </div>
+                    </div>
+
+                    <div style="
                           margin-top: 20px;
                           display: flex;
                           justify-content: flex-end;
                           align-items: flex-end;
-                        "
-                        class="modal-footer"
-                      >
-                        <!-- <span style="font-size: smaller; color: grey"
+                        " class="modal-footer">
+                      <!-- <span style="font-size: smaller; color: grey"
                           >In case of any queries : contact POOLA</span
                         > -->
-                        <button
-                          style="background-color: #1bb1dc"
-                          type="button"
-                          class="btn"
-                        >
-                          <span
-                            ><a style="color: snow" href="https://forms.gle/4Q8t5TKQbA7u1Hzi6">Register</a></span
-                          >
-                        </button>
-                      </div>
+                      <button style="background-color: #1bb1dc" type="button" class="btn">
+                        <span><a style="color: snow" href="https://forms.gle/4Q8t5TKQbA7u1Hzi6">Register</a></span>
+                      </button>
                     </div>
                   </div>
                 </div>
               </div>
             </div>
+          </div>
 
-            <div
-              style="
+          <div style="
                 padding-bottom: 24px;
                 display: flex;
                 flex-direction: column;
                 justify-content: flex-end;
-              "
-              class="card m-3 wow bounceInUp"
-              data-wow-duration="1.4s"
-            >
-              <div class="image mt-3">
-                <img src="./img/flutter-logo.png" width="250" />
-              </div>
-              <div class="contentBx">
-                <h2>Blockchain</h2>
-                <p>A 2-day workshop on Blockchain.</p>
-                <span class="mr-4"
-                  ><a data-toggle="modal" data-target="#workshop2" href="#"
-                    >Read More</a
-                  ></span
-                >
-                <span><a href="#">Register</a></span>
-              </div>
-              <div style="position: absolute; display: flex; justify-content: center;align-items: center; width: 80%; height: 90%;transform: translateY(20px); background-color: white; align-self: center; ">
-                <p style="font-size: 20px;" class="comingsoon"> COMING SOON </p>
-              </div>
+              " class="card m-3 wow bounceInUp" data-wow-duration="1.4s">
+            <div class="image mt-3">
+              <img src="./img/flutter-logo.png" width="250" />
             </div>
+            <div class="contentBx">
+              <h2>Blockchain</h2>
+              <p>A 2-day workshop on Blockchain.</p>
+              <span class="mr-4"><a data-toggle="modal" data-target="#workshop2" href="#">Read More</a></span>
+              <span><a href="#">Register</a></span>
+            </div>
+            <div style="position: absolute; display: flex; justify-content: center;align-items: center; width: 80%; height: 90%;transform: translateY(20px); background-color: white; align-self: center; ">
+              <p style="font-size: 20px;" class="comingsoon"> COMING SOON </p>
+            </div>
+          </div>
 
-            <!-- ================================= w2 model ===================================== -->
+          <!-- ================================= w2 model ===================================== -->
 
-            <div
-            class="modal fade"
-            id="workshop2"
-            tabindex="-1"
-            role="dialog"
-            aria-labelledby="exampleModalLongTitle"
-            aria-hidden="true"
-          >
-            <div
-              style="
+          <div class="modal fade" id="workshop2" tabindex="-1" role="dialog" aria-labelledby="exampleModalLongTitle" aria-hidden="true">
+            <div style="
                 display: flex;
                 align-items: center;
                 justify-content: center;
-              "
-              class="modal-dialog modal-dialog-centered"
-              role="document card"
-            >
-              <div
-                class="modal-content"
-              >
+              " class="modal-dialog modal-dialog-centered" role="document card">
+              <div class="modal-content">
                 <div style="margin-bottom: 15px" class="modal-header">
-                  <h5
-                    style="
+                  <h5 style="
                       margin-left: -15px;
                       font-weight: bold;
                       font-size: x-large;
-                    "
-                    class="modal-title"
-                    id="exampleModalLongTitle"
-                  >
+                    " class="modal-title" id="exampleModalLongTitle">
                     Flutter-verse
                   </h5>
-                  <button
-                    type="button"
-                    class="close"
-                    data-dismiss="modal"
-                    aria-label="Close"
-                  >
+                  <button type="button" class="close" data-dismiss="modal" aria-label="Close">
                     <span aria-hidden="true">&times;</span>
                   </button>
                 </div>
@@ -728,13 +560,11 @@
                 <img src="./Koala.jpg" />
 
                 <div class="modal-body">
-                  <div
-                    style="
+                  <div style="
                       display: flex;
                       justify-content: space-between;
                       align-items: flex-end;
-                    "
-                  >
+                    ">
                     <table class="table table-borderless">
                       <tbody>
                         <tr>
@@ -752,7 +582,7 @@
                           <th scope="row">Venue</th>
                           <td>
                             Lorem ipsum dolor sit amet consectetur adipisicing
-                            elit. 
+                            elit.
                           </td>
                         </tr>
                         <tr>
@@ -765,28 +595,18 @@
                         </tr>
                       </tbody>
                     </table>
-                    <img
-                      class="flutterimg"
-                      style="margin: 34px"
-                      src="./img/flutt.svg"
-                      height="200px"
-                    />
+                    <img class="flutterimg" style="margin: 34px" src="./img/flutt.svg" height="200px" />
                   </div>
-                  <div
-                    class="sp-div"
-                  >
-                    <p
-                      style="
+                  <div class="sp-div">
+                    <p style="
                         margin: 0 24px 15px 24px;
                         font-size: larger;
                         font-family: 'Anton';
                         letter-spacing: 1px;
-                      "
-                    >
+                      ">
                       About the speaker :
                     </p>
-                    <div
-                      style="
+                    <div style="
                         align-items: center;
                         padding: 20px;
                         background-color: snow;
@@ -794,15 +614,8 @@
                         padding-bottom: 36px;
                         border-radius: 10px;
                         min-height: 250px;
-                      "
-                      class="speaker"
-                    >
-                      <img
-                        class="sp-image"
-                        width="180px"
-                        height="180px"
-                        src="Koala.jpg"
-                      />
+                      " class="speaker">
+                      <img class="sp-image" width="180px" height="180px" src="Koala.jpg" />
                       <div class="speaker-info">
                         <p>
                           Lorem ipsum, dolor sit amet consectetur adipisicing
@@ -814,26 +627,15 @@
                       </div>
                     </div>
 
-                    <div
-                      style="
+                    <div style="
                         margin-top: 20px;
                         display: flex;
                         justify-content: space-between;
                         align-items: flex-end;
-                      "
-                      class="modal-footer"
-                    >
-                      <span style="font-size:x-small; color: grey"
-                        >In case of any queries : contact POOLA</span
-                      >
-                      <button
-                        style="background-color: #1bb1dc"
-                        type="button"
-                        class="btn"
-                      >
-                        <span
-                          ><a style="color: snow" href="#">Register</a></span
-                        >
+                      " class="modal-footer">
+                      <span style="font-size:x-small; color: grey">In case of any queries : contact POOLA</span>
+                      <button style="background-color: #1bb1dc" type="button" class="btn">
+                        <span><a style="color: snow" href="#">Register</a></span>
                       </button>
                     </div>
                   </div>
@@ -841,117 +643,108 @@
               </div>
             </div>
           </div>
-      </section>
+    </section>
 
-      <section style="padding-top: 60px" id="team" class="section-bg">
-        <div style="width: 100%" class="container">
-          <div class="section-header">
-            <h3>Our Team</h3>
-          </div>
+    <section style="padding-top: 60px" id="team" class="section-bg">
+      <div style="width: 100%" class="container">
+        <div class="section-header">
+          <h3>Our Team</h3>
+        </div>
 
-          <div class="container mt-4">
-            <div class="row mb-4">
-              <div class="col-md-3 col-6 col-sm-6 mt-5">
-                <div class="box">
-                  <img src="./img/c1.jpg" />
-                  <div class="box-content">
-                    <h3 class="title">Sai Manas <br />Rao</h3>
-                  </div>
+        <div class="container mt-4">
+          <div class="row mb-4">
+            <div class="col-md-3 col-6 col-sm-6 mt-5">
+              <div class="box">
+                <img src="./img/c1.jpg" />
+                <div class="box-content">
+                  <h3 class="title">Sai Manas <br />Rao</h3>
                 </div>
               </div>
-              <div class="col-md-3 col-6 col-sm-6 mt-5">
-                <div class="box">
-                  <img src="./img/c2.jpg" />
-                  <div class="box-content">
-                    <h3 class="title">Rachel <br />Merritt</h3>
-                  </div>
+            </div>
+            <div class="col-md-3 col-6 col-sm-6 mt-5">
+              <div class="box">
+                <img src="./img/c2.jpg" />
+                <div class="box-content">
+                  <h3 class="title">Rachel <br />Merritt</h3>
                 </div>
               </div>
-              <div class="col-md-3 col-6 col-sm-6 mt-5">
-                <div class="box">
-                  <img src="./img/c4.jpeg" />
-                  <div class="box-content">
-                    <h3 class="title">
-                      Sai Akshay <br />
-                      Kumar
-                    </h3>
-                  </div>
+            </div>
+            <div class="col-md-3 col-6 col-sm-6 mt-5">
+              <div class="box">
+                <img src="./img/c4.jpeg" />
+                <div class="box-content">
+                  <h3 class="title">
+                    Sai Akshay <br />
+                    Kumar
+                  </h3>
                 </div>
               </div>
-              <div class="col-md-3 col-6 col-sm-6 mt-5">
-                <div class="box">
-                  <img src="./img/c3.jpg" />
-                  <div class="box-content">
-                    <h3 class="title">
-                      Sri Sai <br />
-                      Preetham
-                    </h3>
-                  </div>
+            </div>
+            <div class="col-md-3 col-6 col-sm-6 mt-5">
+              <div class="box">
+                <img src="./img/c3.jpg" />
+                <div class="box-content">
+                  <h3 class="title">
+                    Sri Sai <br />
+                    Preetham
+                  </h3>
                 </div>
               </div>
             </div>
           </div>
         </div>
-      </section>
+      </div>
+    </section>
 
-      <section style="background-color: snow; padding-top: 100px" id="clients">
-        <div
-          style="
+    <section style="background-color: snow; padding-top: 100px" id="clients">
+      <div style="
             position: absolute;
             width: 100%;
             height: 120%;
             background: url('./img/particles.svg') fixed;
             background-size: cover;
             transform: translateY(-320px);
-          "
-        ></div>
+          "></div>
 
-        <div style="width: 100%" class="container spcontainer">
-          <header class="section-header">
-            <h3>Previous Sponsers</h3>
-          </header>
+      <div style="width: 100%" class="container spcontainer">
+        <header class="section-header">
+          <h3>Previous Sponsers</h3>
+        </header>
 
-          <div class="owl-carousel clients-carousel">
-            <img src="img/logos/logo1.png" alt="" />
-            <img src="img/logos/logo2.png" alt="" />
-            <img src="img/logos/logo3.jpg" alt="" />
-            <img src="img/logos/logo4.jpg" alt="" />
-            <img src="img/logos/logo5.webp" alt="" />
-            <img src="img/logos/logo6.png" alt="" />
-            <img src="img/logos/logo7.png" alt="" />
-            <img src="img/logos/logo8.png" alt="" />
-          </div>
+        <div class="owl-carousel clients-carousel">
+          <img src="img/logos/logo1.png" alt="" />
+          <img src="img/logos/logo2.png" alt="" />
+          <img src="img/logos/logo3.jpg" alt="" />
+          <img src="img/logos/logo4.jpg" alt="" />
+          <img src="img/logos/logo5.webp" alt="" />
+          <img src="img/logos/logo6.png" alt="" />
+          <img src="img/logos/logo7.png" alt="" />
+          <img src="img/logos/logo8.png" alt="" />
         </div>
-      </section>
-    </main>
+      </div>
+    </section>
+  </main>
 
-    <footer id="footer" class="section-bg">
-      <div class="footer-top">
-        <div style="width: 100%" class="container">
-          <div class="row">
-            <div class="col-lg-12">
-              <h3 class="follow">Follow us to know more</h3>
+  <footer id="footer" class="section-bg">
+    <div class="footer-top">
+      <div style="width: 100%" class="container">
+        <div class="row">
+          <div class="col-lg-12">
+            <h3 class="follow">Follow us to know more</h3>
 
-              <div
-                class="social-links"
-                style="display: flex; justify-content: center"
-              >
-                <a href="https://www.facebook.com/questJNTUH/" class="facebook"
-                  ><i class="fa fa-facebook"></i
-                ></a>
-                <a href="https://instagram.com/quest.jntuh/" class="instagram"
-                  ><i class="fa fa-instagram"></i
-                ></a>
-              </div>
+            <div class="social-links" style="display: flex; justify-content: center">
+              <a href="https://www.facebook.com/questJNTUH/" class="facebook"><i class="fa fa-facebook"></i></a>
+              <a href="https://instagram.com/quest.jntuh/" class="instagram"><i class="fa fa-instagram"></i></a>
             </div>
           </div>
         </div>
       </div>
-    </footer>
+    </div>
+  </footer>
 
-    <a href="#" class="back-to-top"><i class="fa fa-chevron-up"></i></a>
+  <a href="#" class="back-to-top"><i class="fa fa-chevron-up"></i></a>
 
-    <!--   <div id="cube">
+  <!--   <div id="cube">
   <div class="side"></div>
   <div class="side"></div>
   <div class="side"></div>
@@ -960,21 +753,22 @@
   <div class="side"></div>
 </div> -->
 
-    <script src="lib/jquery/jquery.min.js"></script>
-    <script src="lib/jquery/jquery-migrate.min.js"></script>
-    <script src="lib/bootstrap/js/bootstrap.bundle.min.js"></script>
-    <script src="lib/easing/easing.min.js"></script>
-    <script src="lib/mobile-nav/mobile-nav.js"></script>
-    <script src="lib/wow/wow.min.js"></script>
-    <script src="lib/waypoints/waypoints.min.js"></script>
-    <script src="lib/counterup/counterup.min.js"></script>
-    <script src="lib/owlcarousel/owl.carousel.min.js"></script>
-    <script src="lib/isotope/isotope.pkgd.min.js"></script>
-    <script src="lib/lightbox/js/lightbox.min.js"></script>
-    <!-- Contact Form JavaScript File -->
-    <!-- <script src="contactform/contactform.js"></script> -->
+  <script src="lib/jquery/jquery.min.js"></script>
+  <script src="lib/jquery/jquery-migrate.min.js"></script>
+  <script src="lib/bootstrap/js/bootstrap.bundle.min.js"></script>
+  <script src="lib/easing/easing.min.js"></script>
+  <script src="lib/mobile-nav/mobile-nav.js"></script>
+  <script src="lib/wow/wow.min.js"></script>
+  <script src="lib/waypoints/waypoints.min.js"></script>
+  <script src="lib/counterup/counterup.min.js"></script>
+  <script src="lib/owlcarousel/owl.carousel.min.js"></script>
+  <script src="lib/isotope/isotope.pkgd.min.js"></script>
+  <script src="lib/lightbox/js/lightbox.min.js"></script>
+  <!-- Contact Form JavaScript File -->
+  <!-- <script src="contactform/contactform.js"></script> -->
 
-    <!-- Template Main Javascript File -->
-    <script src="js/main.js"></script>
-  </body>
+  <!-- Template Main Javascript File -->
+  <script src="js/main.js"></script>
+</body>
+
 </html>
