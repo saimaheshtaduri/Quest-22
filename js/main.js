@@ -1,5 +1,10 @@
 (function ($) {
   "use strict";
+  $(window).load(function(){
+    $("body").css("overflow-y", "auto")
+    $("#loader").hide()
+  })
+
   $(window).scroll(function(){
     let offset = window.scrollY;
     $("#textscroll").scrollTop(100);
