@@ -85,6 +85,10 @@
         justify-content: center;
       }
 
+      td{
+        font-family: 'Nunito';
+      }
+
       .hovereffect1,
       .hovereffect2,
       .hovereffect3,
@@ -162,6 +166,11 @@
 </head>
 
 <body>
+  <div style="overflow: hidden;" id="loader">
+    <div style="width: 100%; height: 110%; background-color: white; display: flex; justify-content: center; align-items: center;overflow: hidden;position: absolute; z-index: 2000;">
+      <img src="./img/Preloader_2.gif" />
+    </div>
+  </div>
   <!--==========================
   Header
   ============================-->
@@ -366,7 +375,7 @@
     <section id="workshops" class="section-bg">
       <div style="position: absolute;" class="bgvideo">
         <video loop muted autoplay id="vidbg2" width="100%" height="100%" style="overflow: hidden; box-shadow: 0 5px 25px white; object-fit: cover;">
-          <source src="./img/particles.mp4" type="video/mp4" />
+          <source src="./img/particles.mov" type="video/mp4" />
         </video>
       </div>
       <div style="padding: 60px 0; width: 100%" class="container">
@@ -422,47 +431,66 @@
                   </button>
                 </div>
 
-                <img src="./img/flutterw1.jpg" />
+                  <img src="./img/flutterworkshop.png" />
 
                 <div class="modal-body">
                   <div style="
                         display: flex;
                         justify-content: space-between;
                         align-items: flex-end;
-                      ">
-                    <table class="table table-borderless">
-                      <tbody>
-                        <tr>
-                          <th scope="row">About</th>
-                          <td>
-                            Flutter is a cross-platform framework that uses just one code to create apps for different devices .It is an open source framework by Google for building beautiful, natively compiled, multi-platform applications from a
-                            single codebase. </td>
-                        </tr>
-                        <tr>
-                          <th scope="row">Timings</th>
-                          <td><b>26 - 27th March, 2022<br />
-                              10AM - 5PM, IST</b></td>
-                        </tr>
-                        <tr>
-                          <th scope="row">Venue</th>
-                          <td>
-                            Seminar Hall, CSE Department. JNTUH.
-                          </td>
-                        </tr>
-                        <tr>
-                          <th scope="row">Fee</th>
-                          <td><i>Rs. 1300/-</i> per participant (<b>UPI</b> available) </td>
-                        </tr>
-                        <tr>
-                          <th scope="row">Perks</th>
-                          <td>Participation Certificates will be provided.</td>
-                        </tr>
-                      </tbody>
-                    </table>
-                    <img class="flutterimg" style="margin: 34px" src="./img/flutt.svg" height="200px" />
-                  </div>
-                  <div class="sp-div">
-                    <p style="
+                      "
+                    >
+                      <table class="table table-borderless">
+                        <tbody>
+                          <tr>
+                            <th scope="row">About</th>
+                            <td>
+                              Flutter is a cross-platform framework that uses just one code to create apps for different devices .It is an open source framework by Google for building beautiful, natively compiled, multi-platform applications from a single codebase.<br/>
+                              <br/><i>Topics : </i><br/>
+                              <Ul>
+                                <li>Getting Started with Flutter. </li>
+                                <li>Family of widgets. </li>
+                                <li>Routes & Navigation. </li>
+                                <li>Connect your app with network. </li>
+                                <li>Saving data with SQLite</li>
+                                <li>State Managements. </li>
+                                <li>Monetize app using Google Admob. </li>
+                              </Ul>
+                            </td>
+                          </tr>
+                          <tr>
+                            <th scope="row">Timings</th>
+                            <td><b>26 - 27th March, 2022.<br/>
+                              10AM - 5PM, IST.</b></td>
+                          </tr>
+                          <tr>
+                            <th scope="row">Venue</th>
+                            <td>
+                              Seminar Hall, CSE Department. JNTUH. 
+                            </td>
+                          </tr>
+                          <tr>
+                            <th scope="row">Fee</th>
+                            <td><i>Rs. 1300/-</i> per participant. ( <b>UPI</b>  available) </td>
+                          </tr>
+                          <tr>
+                            <th scope="row">Perks</th>
+                            <td>Participation Certificates will be provided.</td>
+                          </tr>
+                        </tbody>
+                      </table>
+                      <img
+                        class="flutterimg"
+                        style="margin: 34px"
+                        src="./img/flutt.svg"
+                        height="200px"
+                      />
+                    </div>
+                    <div
+                      class="sp-div"
+                    >
+                      <p
+                        style="
                           margin: 0 24px 15px 24px;
                           font-size: larger;
                           font-family: 'Anton';
@@ -477,12 +505,19 @@
                           margin: 0 20px;
                           padding-bottom: 36px;
                           border-radius: 10px;
+                          display: flex;
+                          justify-content: space-between;
+                          align-items: flex-start;
                           min-height: 250px;
                         " class="speaker">
                       <img class="sp-image" height="200px" src="./img/speaker.avif" />
                       <div class="speaker-info">
                         <p style="text-align: left;"><span style="font-family: 'Secular One'; font-size: 60px; ">"</span></p>
+<<<<<<< HEAD
                         <p style="font-family: 'Nunito'; font-style: italic; letter-spacing: 1px; transform: translateY(-32px); ">
+=======
+                        <p style="font-family: 'Nunito'; font-style: italic; letter-spacing: 1px; ">
+>>>>>>> 5f1d33515d1a6bfe609b87bfde279ae1a5fa8509
                           I am a Senior Consultant - Flutter at Virtusa Corporation and currently living in Hyderabad, India.
                           I'm into Mobile App development from past 6 years and have experienced not only with Android,
                           I used to work with Actions on Google, Google Cloud platform tools, Flutter with Dart SDK, Firebase.
@@ -504,15 +539,31 @@
                     <div style="
                           margin-top: 20px;
                           display: flex;
-                          justify-content: flex-end;
+                          justify-content: space-between;
                           align-items: flex-end;
-                        " class="modal-footer">
-                      <!-- <span style="font-size: smaller; color: grey"
-                          >In case of any queries : contact POOLA</span
-                        > -->
-                      <button style="background-color: #1bb1dc" type="button" class="btn">
-                        <span><a style="color: snow" href="https://forms.gle/4Q8t5TKQbA7u1Hzi6">Register</a></span>
-                      </button>
+                        "
+                        class="modal-footer"
+                      >
+                       <div style="font-size: smaller; color: grey">
+                        <span>
+                          In case of any queries : contact our student coordinators : </span>
+                          <p>M. Dinesh  -  9381251196<br />
+                          P. Sriram  -  6309647618<br />
+                          K.N. Venkat - 9059087915<br />
+                          Neeraj  -  7093938297<br />
+                          Meghana Sri  -  7093938297<br />
+                          Nimisha  -  9849877471</p>
+                        </div>
+                        <button
+                          style="background-color: #1bb1dc"
+                          type="button"
+                          class="btn"
+                        >
+                          <span
+                            ><a style="color: snow" href="https://forms.gle/4Q8t5TKQbA7u1Hzi6">Register</a></span
+                          >
+                        </button>
+                      </div>
                     </div>
                   </div>
                 </div>
@@ -650,9 +701,9 @@
           </div>
     </section>
 
-    <section style="padding-top: 60px" id="team" class="section-bg">
-      <div style="width: 100%" class="container">
-        <div class="section-header">
+    <section style="padding-top: 60px;" id="team" class="section-bg">
+      <div style="width: 100%; background-color: #F5F8FD;" class="container">
+        <div style="padding-top: 60px;"  class="section-header">
           <h3>Our Team</h3>
         </div>
 
