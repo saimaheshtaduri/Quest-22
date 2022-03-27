@@ -136,6 +136,15 @@
     }
   });
 
+  //events carausel
+  const radio_inputs = $('input[type=radio]')
+
+  radio_inputs.on('change', function(){
+    const checked = $('input[type=radio]:checked').val()
+    $('#eventsdiv').removeClass().addClass(checked)
+
+  })
+
 })(jQuery);
 
 
@@ -147,3 +156,4 @@ function myFunction() {
   var scrolled = (winScroll / height) * 100;
   document.getElementById("myBar").style.width = scrolled + "%";
 }
+

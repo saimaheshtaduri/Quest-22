@@ -661,6 +661,109 @@ h6, .comingsoon {
   transition: .5s;
 }
 
+
+/* Events Section
+--------------------------------*/
+#eventsdiv{
+  transition: background-color 2s ease;
+}
+
+.i1{
+  background-color: white;
+}
+
+.i2{
+  background-color: red;
+}
+
+.i3{
+  background-color: blue;
+}
+
+#events{
+  height: 40vw;
+  position: relative;
+  perspective: 1000px;
+  transform-style: preserve-3d;
+  overflow:auto;
+}
+
+label{
+  margin: auto;
+  width: 60%;
+  height: 100% ;
+  position: absolute;
+  left: 0;
+  right: 0;
+  cursor: pointer;
+  transition: transform 0.8s ease
+}
+
+#item-1:checked ~ #events #slide3, #item-2:checked ~ #events #slide1, #item-3:checked ~ #events #slide2{
+  box-shadow: 0 6px 10px 0 rgba(0,0,0,.3), 0 2px 2px 0 rgba(0,0,0,.2);
+  transform: translate3d(-24%, 0, -250px);
+  opacity: 0.5;
+}
+
+#item-1:checked ~ #events #slide1, #item-2:checked ~ #events #slide2, #item-3:checked ~ #events #slide3{
+  box-shadow: 0 13px 25px 0 rgba(0,0,0,.3), 0 11px 7px 0 rgba(0,0,0,.19);
+  transform: translate3d(0,0,0);
+  z-index: 1;
+}
+
+#item-1:checked ~ #events #slide2, #item-2:checked ~ #events #slide3, #item-3:checked ~ #events #slide1{
+  box-shadow: 0 6px 10px 0 rgba(0,0,0,.3), 0 2px 2px 0 rgba(0,0,0,.2);
+  transform: translate3d(24%, 0, -250px);
+  opacity: 0.5;
+}
+
+#item-1:checked ~ .events-content-div .ev-container{
+  transform: translateY(0px);
+  transition: transform 0.8s ease-in;
+}
+
+#item-2:checked ~ .events-content-div .ev-container{
+  transform: translateY(-160px);
+  transition: transform 0.8s ease-in;
+}
+
+#item-3:checked ~ .events-content-div .ev-container{
+  transform: translateY(-320px);
+  transition: transform 0.8s ease-in;
+}
+
+input[type=radio]{
+  display: none;
+}
+
+.events-content-div{
+  display: flex;
+  justify-self: center;
+  align-self: center;
+  height: 160px;
+  overflow-y: hidden;
+  padding: 0;
+  margin: 32px 50px;
+  border-radius: 10px;
+  box-shadow: 2px 3px 15px grey;
+}
+
+.ev-container{
+  height: 100%;
+  width: 100%;
+}
+
+.event-content{
+  height: 160px;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  vertical-align: middle;
+  text-align: center;
+  background-color: wheat;
+}
+
 /* Services Section
 --------------------------------*/
 

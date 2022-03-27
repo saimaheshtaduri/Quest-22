@@ -166,11 +166,7 @@
 </head>
 
 <body>
-  <!-- <div style="overflow: hidden;" id="loader">
-    <div style="width: 100%; height: 110%; background-color: white; display: flex; justify-content: center; align-items: center;overflow: hidden;position: absolute; z-index: 2000;">
-      <img src="./img/Preloader_2.gif" />
-    </div>
-  </div> -->
+ 
   <!--==========================
   Header
   ============================-->
@@ -276,106 +272,47 @@
       </div>
     </section>
 
-    <section style="
-          padding-top: 50px;
-          padding-bottom: 60px;
-          position: relative;
-          background-color: snow;
-          z-index: 100;
-        " id="events" class="section-bg">
-      <div style="width: 100%" class="container">
-        <header style="transform: translateY(20px)" class="section-header">
-          <h3 class="section-title">Previous Events</h3>
-        </header>
-
-        <div class="row mt-4 wow bounceInUp" data-wow-duration="1.4s">
-          <div class="col-lg-3 col-md-3 col-sm-6 mb-4 mt-5 eventss">
-            <div class="hovereffect">
-              <img style="opacity: 0.88; object-fit: cover;" class="img-responsive" src="./img/expo.jpg" alt="" height="250px" width="250px" />
-
-              <div class="overlay">
-                <h2>Project Expo</h2>
-                <p></p>
-              </div>
-            </div>
+    <div style="margin: 0; padding: 32px 0 " id="eventsdiv" class="i1">
+      <div style="padding: 20px;" class="section-header">
+        <h3>Events</h3>
+      </div>
+      <input type="radio" name="slider" id="item-1" value="i1" checked>
+      <input type="radio" name="slider" id="item-2" value="i2">
+      <input type="radio" name="slider" id="item-3" value="i3">
+      <section id="events">
+        
+          <label for="item-1" id="slide1">
+            <img height="100%" width="100%" src="https://images.unsplash.com/photo-1530651788726-1dbf58eeef1f?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=882&q=80" alt="song">
+          </label>
+          <label  for="item-2" id="slide2">
+            <img height="100%" width="100%" src="https://images.unsplash.com/photo-1559386484-97dfc0e15539?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1234&q=80" alt="song">
+          </label>
+          <label for="item-3" id="slide3">
+            <img height="100%" width="100%" src="https://images.unsplash.com/photo-1533461502717-83546f485d24?ixlib=rb-1.2.1&auto=format&fit=crop&w=900&q=60" alt="song">
+          </label>
+      </section>
+      <div class="events-content-div">
+        <div class="ev-container">
+          <div class="event-content">
+            <p class="event-name">Event - 1</p>
+            <p class="event-desc">Event 1 desc</p>
           </div>
-          <div class="col-lg-3 col-md-3 col-sm-6 mb-4 mt-5 eventss">
-            <div class="hovereffect1">
-              <img style="opacity: 0.88; object-fit: cover;" class="img-responsive" src="./img/hacktivision.jpg" alt="" height="250px" width="250px" />
-
-              <div class="overlay">
-                <h2>Hactivision</h2>
-                <p></p>
-              </div>
-            </div>
+          <div class="event-content">
+            <p class="event-name">Event - 2</p>
+            <p class="event-desc">Event 2 desc</p>
           </div>
-          <div class="col-lg-3 col-md-3 col-sm-6 mb-4 mt-5 eventss">
-            <div class="hovereffect2">
-              <img style="opacity: 0.88; object-fit: cover;" class="img-responsive" src="./img/flashmob.png" alt="" height="250px" width="250px" />
-
-              <div class="overlay">
-                <h2>Flashmob</h2>
-                <p></p>
-              </div>
-            </div>
-          </div>
-          <div class="col-lg-3 col-md-3 col-sm-6 mb-4 mt-5 eventss">
-            <div class="hovereffect3">
-              <img style="opacity: 0.88; object-fit: cover;" class="img-responsive" src="./img/cryptic.jpg" alt="" height="250px" width="250px" />
-
-              <div class="overlay">
-                <h2>Cryptic_enigma</h2>
-                <p></p>
-              </div>
-            </div>
-          </div>
-          <div class="col-lg-3 col-md-3 col-sm-6 mb-4 mt-5 eventss">
-            <div class="hovereffect3">
-              <img style="opacity: 0.88; object-fit: cover;" class="img-responsive" src="./img/codeking.jpg" alt="" height="250px" width="250px" />
-
-              <div class="overlay">
-                <h2>Codeking</h2>
-                <p></p>
-              </div>
-            </div>
-          </div>
-          <div class="col-lg-3 col-md-3 col-sm-6 mb-4 mt-5 eventss">
-            <div class="hovereffect3">
-              <img style="opacity: 0.88; object-fit: cover;" class="img-responsive" src="./img/3krun.jpg" alt="" height="250px" width="250px" />
-
-              <div class="overlay">
-                <h2>3K run</h2>
-                <p></p>
-              </div>
-            </div>
-          </div>
-          <div class="col-lg-3 col-md-3 col-sm-6 mb-4 mt-5 eventss">
-            <div class="hovereffect3">
-              <img style="opacity: 0.88; object-fit: cover;" class="img-responsive" src="./img/snakes.jpg" alt="" height="250px" width="250px" />
-
-              <div class="overlay">
-                <h2>Snake-n-Ladders</h2>
-                <p></p>
-              </div>
-            </div>
-          </div>
-          <div class="col-lg-3 col-md-3 col-sm-6 mb-4 mt-5 eventss">
-            <div class="hovereffect3">
-              <img style="opacity: 0.88; object-fit: cover;" class="img-responsive" src="./img/interview.jpg" alt="" height="250px" width="250px" />
-
-              <div style="background-color: transparent;" class="overlay">
-                <h2>Mock interview</h2>
-                <p></p>
-              </div>
-            </div>
+          <div class="event-content">
+            <p class="event-name">Event - 3</p>
+            <p class="event-desc">Event 3 desc</p>
           </div>
         </div>
-      </div>
-    </section>
+     </div>
+    </div>
+    
 
-    <section id="workshops" class="section-bg">
-      <div style="position: absolute;" class="bgvideo">
-        <video loop muted autoplay id="vidbg2" width="100%" height="100%" style="overflow: hidden; box-shadow: 0 5px 25px white; object-fit: cover;">
+    <section style="position: relative;" id="workshops" class="section-bg">
+      <div style="position: absolute; top: 0" class="bgvideo">
+        <video loop muted autoplay id="vidbg2" height="100%" width="100%" style="overflow: hidden; box-shadow: 0 5px 25px white; object-fit: cover;">
           <source src="./img/particles.mov" type="video/mp4" />
         </video>
       </div>
